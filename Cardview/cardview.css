@@ -3,22 +3,22 @@ body{
     background-image: linear-gradient(242.04deg,#1CD881 -66.12%, #313A5B 111.11%);
 }
 .card{
-    -webkit-box-shadow: 0 8px 6px -6px darkgrey;
-    -moz-box-shadow: 0 8px 6px -6px darkgrey;
-    box-shadow: 0 8px 6px -6px darkgrey;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
     padding: 0%;
     margin: 0%;
     width: 60%;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 .col-lg-7 h5{
     text-align: left;
     padding: 0%;
     margin-top: 1%;
     margin-left: 2%;
+    color: white;
 }
 .col-lg-7 h6{
-    color:grey;
+    color: 	#A9A9A9;
     text-align: left;
     padding: 0%;
     margin-left: 2%;
@@ -31,7 +31,7 @@ center{
 .col-lg-3{
     padding-top: 2%;
     margin: 0%;
-    background-color: grey; 
+    background-color:green; 
 }
 .col-lg-2{
     padding-top: 2%;
