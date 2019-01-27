@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load staticfiles %}
+  <title>Bioinformatics</title>
+  
+ <style>
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;}
+  
+  th
+  {
+    padding: 50px;
+  }
+  img {
+  max-width: 95%;
+  height: auto;
+}
+ </style>
+<body>
+  <div class="col-lg-12">
+    <div class="jumbotron text-center" style="background-color: teal; color: white;">
+  <h2>BIOLOGICAL SCIENCES</h2>  
+</div>
+  <OL style="margin-left: 25px;">
+    <h3> <LI><b>BIOINFORMATICS</b>:-</LI></h3>
+	  <ol type="a">
+	  <li>Stock price:- 387.70</li>
+	  <li>Volume traded:-2062181</li>
+      <li>Course IC:-</li>
+	  <h4><b>Dr. Tiwari</b></h4>
+	  <h5>Qualifications</h5>
+	  <ul style="list-style-type:circle">
+	  <li>Ph.D. Thesis Title: Studies on the repressor and cro proteins of temperate Staphylococcus aureus phage Phi11.</li>
+	  <li>His Research interests include studies on the molecular biology of temperate phages, specifically aureophages.</li>
+	  </ul>
+	  <li>About:-</li>
+	  <ul style="list-style-type:circle">
+	  <li>Bioinformatics is an interdisciplinary field mainly involving molecular biology and genetics, computer science, mathematics, and statistics. Data intensive, large-scale biological problems are addressed from a computational point of view.</p></li>
+    </ul>
+    <li>The below graphs show the past one year's price data.</li>
+    <img src="{% static 'image/adani ports.PNG'%}" width="800px" height="600px">
+    <img src="{% static 'image/adani ports candlestick.PNG'%}" width="800px" height="600px">
+    <li>Placement:-</li>
+    <div style="overflow-x:auto;">
+	  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Total Registered</th>
+		<th>Percentage Placed</th>
+		<th>Average CTC(LPA)</th>
+		<th>Median CTC(LPA)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2014</td>
+        <td>11</td>
+		<td>45.45%</td>
+		<td>6.56</td>
+		<td>6.75</td>
+      </tr>
+	  <tr>
+        <td>2015</td>
+        <td>16</td>
+		<td>68.75%</td>
+		<td>6.95</td>
+		<td>6.75</td>
+      </tr>
+	  <tr>
+        <td>2016</td>
+        <td>17</td>
+		<td>47.05%</td>
+		<td>7.35</td>
+		<td>7.50</td>
+      </tr>
+	  <tr>
+        <td>2017</td>
+        <td>20</td>
+		<td>40.00%</td>
+		<td>7.29</td>
+		<td>7.25</td>
+      </tr>
+	  <tr>
+        <td>2018</td>
+        <td>24</td>
+		<td>54.17%</td>
+		<td>8.03</td>
+		<td>8.20</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <li>Average CG:-</li>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Avreage CG</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2014</td>
+        <td>6.49</td>
+      </tr>
+	  <tr>
+        <td>2015</td>
+        <td>7.03</td>
+      </tr>
+	  <tr>
+        <td>2016</td>
+        <td>6.28</td>
+	  <tr>
+        <td>2017</td>
+        <td>6.12</td>
+      </tr>
+	  <tr>
+        <td>2018</td>
+        <td>6.63</td>
+      </tr>
+    </tbody>
+  </table>
+  </ol>
+  </OL>
+  </div>
+  {% endblock %}
